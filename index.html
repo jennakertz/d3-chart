@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nonsense</title>
+		<link rel="stylesheet" href="stylesheets/reset.css">
+		<link rel="stylesheet" href="stylesheets/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	</head>
+	<body>
+
+	  <div id="container">
+	    <div id="chart">
+	    </div>
+	    
+	    <div id="details">
+	      </br>
+	      <h2>Find a Person</h2>
+	      <button type="button" id="randomPerson">Random Person</button>
+	      </br>
+	      </br>
+	      <form id="search">
+		Person Number:<input type="text" name="person" id="person"><br>
+		<input type="submit">
+	      </form>
+	      </br>
+ 	      <h2>Person Number</h2>
+	      <p id="activePerson"></p>
+	      </br>
+	      <h2>Lifetime events</h2>
+	      <p id="activeNots"></p>
+	      </br>
+	      <h2>Event Details</h2>
+	      <div id="js-not-details">
+		<p>Hover over a event to see detailed information.</p>
+	      </div>
+	      </br>
+	      <h2>Event Category</h2>
+	      <div id="js-color-legend">
+	      </div>
+	    </div>
+	  </div>
+
+	  <!-- JAVASCRIPT -->
+	  
+	  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+	  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+	  <script src="https://d3js.org/d3.v4.js"></script>
+	  <script type="application/json" src="https://raw.githubusercontent.com/jennakertz/d3-chart/master/js/data.json"></script>
+	  <script src="js/main.js"></script>
+	</body>
+</html>

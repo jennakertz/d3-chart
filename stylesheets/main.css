@@ -1,0 +1,55 @@
+/* notifications stylesheet */
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+    padding:5px;
+}
+
+text {
+    font-family: 'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+#chart{
+    display:inline-block;
+    width:65%;
+    height:100%;
+}
+
+
+#details {
+    display:inline-block;
+    width:30%;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    height:100%;
+}
+
+circle:hover {
+    stroke: black;
+    stroke-width:5;
+    /* transform:scale(20); */
+}
+
+pre code {
+  background-color: #eee;
+  border: 1px solid #999;
+  display: block;
+  padding: 20px;
+}
